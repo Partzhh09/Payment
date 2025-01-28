@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background: linear-gradient(to right, #00ddff, #ad2569);
     color: #333;
   }
   
@@ -19,7 +19,7 @@ body {
   h1,
   h2 {
     text-align: center;
-    color: #ff6f61;
+    color: #9e4300;
     font-weight: 600;
   }
   
@@ -35,7 +35,7 @@ body {
     width: 100%;
     padding: 0.8rem;
     margin-top: 0.5rem;
-    border: 2px solid #ff6f61;
+    border: 2px solid #003e5b;
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 1rem;
@@ -43,7 +43,7 @@ body {
   }
   
   fieldset {
-    border: 2px solid #ff6f61;
+    border: 2px solid #003e5b;
     border-radius: 8px;
     padding: 1rem;
   }
@@ -51,7 +51,7 @@ body {
   input:focus,
   textarea:focus,
   select:focus {
-    border-color: #ff9a9e;
+    border-color: #003e5b;
     box-shadow: 0 0 8px rgba(255, 154, 158, 0.8);
   }
   
@@ -65,7 +65,7 @@ body {
   }
   
   input[type="submit"] {
-    background: linear-gradient(to right, #ff6f61, #fcb045);
+    background: linear-gradient(to right, #ad2569, #00a49c);
     color: #fff;
     border: node;
     padding: 0.8rem 1.5rem;
@@ -80,6 +80,6 @@ body {
   }
   
   input[type="submit"]:hover {
-    background: linear-gradient(to right, #fcb045, #ff9a9e);
+    background: linear-gradient(to right, #00a49c, #ad2569);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
